@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Pattaya&family=Poppins:wght@600&display=swap");
+
+.card-box {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  .main-img-wrapper {
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+    .main-img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.image-section {
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin: 13px 17px 11px;
+}
+.card-first-text {
+  font-family: Poppins;
+}
+.card-second-text {
+  color: #a7a7a7;
+}
+.like-frame {
+  width: 50px;
+}
+.like-number {
+  color: #a7a7a7;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
